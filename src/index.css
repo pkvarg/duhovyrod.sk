@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.intro h3 {
+  color: #f1bf41;
+}
+
+.duha-gradient {
+  background-image: linear-gradient(
+    to left,
+    #e64bc7,
+    #4b0082,
+    #2bbe26,
+    #bb1515
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
+
+  color: transparent;
+  font-weight: 600;
+}
