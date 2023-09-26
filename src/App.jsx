@@ -1,4 +1,6 @@
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import CookieConsent from 'react-cookie-consent'
 
 function App() {
   return (
@@ -211,7 +213,32 @@ function App() {
       </div>
       <span className='italic'></span>
       <span className='text-[15px]'></span>
+      {/* <CookieConsent
+        location='bottom'
+        style={{
+          background: '#000000',
+          color: '#f1bf41',
+          fontSize: '18px',
+          textAlign: 'justify',
+          border: '1px solid #ffffff',
+        }}
+        buttonStyle={{
+          background: '#39bb2f',
+          color: '#fff',
+          fontSize: '20px',
+          padding: '2.5px 5px',
+        }}
+        buttonText='Pokračovať'
+        expires={365}
+        onAccept={() => {
+          setCookieAccept(true)
+          increaseVisitorsCount()
+        }}
+      >
+        Táto stránka nezhromažďuje žiadne údaje
+      </CookieConsent> */}
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
