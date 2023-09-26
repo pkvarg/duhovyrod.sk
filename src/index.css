@@ -10,6 +10,11 @@ body {
   color: #f1bf41;
 }
 
+.intro h3 {
+  text-align: center;
+  padding: 30px 0;
+}
+
 .duha-gradient {
   background-image: linear-gradient(
     to left,

@@ -13,7 +13,7 @@ function App() {
         Ježiš ťa miluje rovnako!
       </h2>
 
-      <div className='text-justify mx-8 text-[18px] mt-20 py-8 intro'>
+      <div className='text-justify mx-4 lg:mx-8 text-[18px] mt-20 py-8 intro'>
         <h3 className='text-white text-[25px]'>Ako to viem?</h3>
         <p>
           Pretože zomrel za hriechy celého ľudstva. Ak by miloval len
@@ -143,7 +143,7 @@ function App() {
           Ježiš ale zomrel za hriechy všetkých a ten kto v Neho verí, je
           ospravedlnený pred Bohom.
           <span className='italic'> Kto verí v Neho, nebude súdený. </span>
-          <span className='text-[15px]'>Ján 3:18</span>
+          <span className='text-[15px]'>Ján 3:18 </span>
           Viera však musí byť úprimná, zo srdca. A tá sa prejavuje tým, že
           človek po tom ako uveril v Ježiša, má túžbu a snahu opustiť hriech a
           jeho otroctvo.

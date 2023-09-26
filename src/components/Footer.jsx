@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-      <section className='text-[18px] pb-8'>
+      <section className='text-[18px] pt-16 pb-8'>
         <div className='flex flex-row gap-2 items-center justify-center'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
@@ -14,7 +14,7 @@ const Footer = () => {
             jwfakty.sk
           </a> */}
         </div>
-        <div className='flex justify-center text-[#8d8d8d] mt-2 text-[15px]'>
+        <div className='flex justify-center text-[#8d8d8d] mt-2 text-[12px]'>
           <a href='https://pictusweb.sk'>
             &#60;&#47;&#62; PICTUSWEB development
           </a>
