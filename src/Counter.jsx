@@ -25,7 +25,7 @@ const Counter = () => {
   }
 
   return (
-    <div className='bg-[#a69f83] h-[100vh] text-[25px] p-10 flex flex-col gap-4'>
+    <div className='bg-[#000000] text-[#f1bf41] h-[100vh] text-[25px] p-10 flex flex-col gap-4'>
       <button
         onClick={getVisitors}
         className='border px-2 rounded-xl w-[100%] lg:w-[20%] cursor-pointer'

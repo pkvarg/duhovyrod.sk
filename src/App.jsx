@@ -10,12 +10,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-
           <Route path='/counter' element={<Counter />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
-      <Footer />
     </>
   )
 }

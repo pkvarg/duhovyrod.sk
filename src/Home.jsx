@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Footer from './components/Footer'
 import CookieConsent from 'react-cookie-consent'
+import axios from 'axios'
 
 const Home = () => {
+  const [cookieAccept, setCookieAccept] = useState(false)
+
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }
+
+  const increaseVisitorsCount = async () => {
+    const { data } = await axios.put(
+      `https://pictusweb.online/api/visitors/gender/increase`,
+      // `http://localhost:2000/api/visitors/gender/increase`,
+      config
+    )
+  }
   return (
     <div className='bg-[#000000] text-white'>
       {/* <h1 className='duha-gradient text-[50px] text-center pt-[20%]'>
@@ -236,6 +253,7 @@ const Home = () => {
       >
         Táto stránka nezhromažďuje žiadne údaje
       </CookieConsent>
+      <Footer />
     </div>
   )
 }
