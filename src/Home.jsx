@@ -49,6 +49,8 @@ const Home = () => {
             sme boli ešte hriešni.{' '}
           </span>
           <span className='text-[15px]'> Rimanom 5:8 </span>
+          <span className='italic'> Boh neuprednostňuje nikoho. </span>
+          <span className='text-[15px]'> Rimanom 2:11 </span>
         </p>
         <p className='mt-4'>
           Pán Ježiš bol priateľ hriešnikov a colníkov a preto Ho vtedajší kňazi
@@ -71,20 +73,21 @@ const Home = () => {
             budeš blížneho svojho ako seba samého.{' '}
           </span>
           <span className='text-[15px]'>Galatským 5:14 </span>
-
           <span className='italic'>
             {' '}
             Kto nemiluje, nepoznal Boha, pretože Boh je láska.{' '}
           </span>
-          <span className='text-[15px]'> Prvý Jánov 4:7 </span>
+          <span className='text-[15px]'> Prvý Jánov 4:8 </span>
           <span className='italic'>
             {' '}
             Lebo to je láska k Bohu, aby sme zachovávali Jeho prikázania; a Jeho
             prikázania nie sú ťažké.{' '}
           </span>
           <span className='text-[15px]'> Prvý Jánov 5:3 </span>
-          <span className='italic'></span>
-          <span className='text-[15px]'></span>
+        </p>
+        <p className='mt-4'>
+          Osobne sa poznám s niekoľkými homosexuálmi a sú to priateľskí ľudia.
+          Sú talentovaní a slušní k druhým. Sú empatickí a spoločenskí.
         </p>
 
         <h3 className='text-white text-[25px]'>Každý človek zhrešil</h3>
@@ -101,6 +104,31 @@ const Home = () => {
           </span>
           je hriech a to akýkoľvek. Ten totiž oddeľuje človeka od Božej
           prítomnosti.
+        </p>
+
+        <p className='mt-4'>
+          Ak usilovne pracuješ, chrániš prírodu, robíš dobročinnosť, ale neveríš
+          v Ježiša, si odsúdený, ak v tejto nevere zostaneš. Ľudia sa počas
+          potopy utopili nie preto, že by boli všetci neprispôsobivé individuá,
+          ale preto, že neuverili Noachovi a nevstúpili do korábu. Utopili sa aj
+          priateľskí, aj talentovaní, aj slušní, aj empatickí, aj spoločenskí.
+        </p>
+
+        <h3 className='text-white text-[25px]'>Kto verí, je ospravedlnený</h3>
+        <p>
+          Ježiš ale zomrel za hriechy všetkých a ten kto v Neho verí, je
+          ospravedlnený pred Bohom.
+          <span className='italic'> Kto verí v Neho, nebude súdený. </span>
+          <span className='text-[15px]'>Ján 3:18 </span>
+          Viera však musí byť úprimná, zo srdca. A tá sa prejavuje tým, že
+          človek po tom ako uveril v Ježiša, má túžbu a snahu opustiť hriech a
+          jeho otroctvo.
+          <span className='italic'>
+            {' '}
+            Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
+            ňom.{' '}
+          </span>
+          <span className='text-[15px]'> Ján 3:36 </span>
         </p>
 
         <h3 className='text-white text-[25px]'>Je inakosť hriechom?</h3>
@@ -133,7 +161,7 @@ const Home = () => {
             zmýšľaniu, aby páchali, čo sa nesluší: naplnení všetkou neprávosťou
             smilstvom.{' '}
           </span>
-          <span className='text-[15px]'> Rimanom 1:26</span>
+          <span className='text-[15px]'> Rimanom 1:26-29</span>
           <span className='italic'>
             {' '}
             Poznali síce právny poriadok Boží, že tí, čo pášu takéto veci,
@@ -156,21 +184,38 @@ const Home = () => {
           <span className='text-[15px]'> Prvý Korintským 6:9-10</span>
         </p>
 
-        <h3 className='text-white text-[25px]'>Kto verí, je ospravedlnený</h3>
-        <p>
-          Ježiš ale zomrel za hriechy všetkých a ten kto v Neho verí, je
-          ospravedlnený pred Bohom.
-          <span className='italic'> Kto verí v Neho, nebude súdený. </span>
-          <span className='text-[15px]'>Ján 3:18 </span>
-          Viera však musí byť úprimná, zo srdca. A tá sa prejavuje tým, že
-          človek po tom ako uveril v Ježiša, má túžbu a snahu opustiť hriech a
-          jeho otroctvo.
+        <h3 className='text-white text-[25px]'>
+          Možno sa necítiš byť tým kým si sa narodil
+        </h3>
+
+        <p className='mt-4'>
+          Sme tými, kým sa cítime alebo sme tými, kým sme sa narodili? Cítiš sa
+          byť prezidentom? Nie si. Cítiš sa byť opicou? Nie si. Cítiš sa byť
+          rastlinou? Nie si. Cítiš sa byť opačným pohlavím? Nie si.
+        </p>
+
+        <p className='mt-4'>
+          City a myšlienky sú častokrát zavádzajúce, pretože sú deformované
+          hriechom. Chvíľu sa ti to páči, inokedy si nešťastný.
+        </p>
+
+        <p className='mt-4'>
+          Si tým, ako si stvorený. Od počiatku stvorenia však stvoril ich Boh
+          ako muža a ženu.
           <span className='italic'>
             {' '}
-            Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na
-            ňom.{' '}
+            Preto opustí človek otca i matku a bude sa pridŕžať svojej manželky,
+            a budú dvaja jedno telo; takže už nie sú dve telá, ale jedno. Čo
+            teda Boh spojil, človek nerozlučuj!
           </span>
-          <span className='text-[15px]'> Ján 3:36 </span>
+          <span className='text-[15px]'> Marek 10:6-9 </span>
+        </p>
+
+        <p className='mt-4'>
+          Ak si sa narodil ako chlapec, si muž. Ak si sa narodila ako dievča, si
+          žena. Potom to bola vôľa Stvoriteľa, aby si bol/bola tým, čím si od
+          narodenia. A to preto, lebo s tebou má dobrý úmysel. Tak prečo ísť
+          proti vôli Najvyššieho?
         </p>
 
         <h3 className='text-white text-[25px]'>Sám to nezvládneš</h3>
@@ -193,31 +238,26 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> List Efezským 6:12 </span>
           Túto moc temna
-          <span className='text-[15px]'>
-            (nejde o posadnutosť, ale o duchovnú držbu v neslobode){' '}
-          </span>
-          v tvojom živote môže zviazať ten, koho Pánom je Ježiš, kto nesie Jeho
+          <span className='text-[15px]'>(duchovnú držbu v neslobode) </span>v
+          tvojom živote môže zviazať ten, koho Pánom je Ježiš, kto nesie Jeho
           autoritu. Sám som túto autoritu uplatňoval vo svojom živote - v
           rôznych oblastiach
           <span className='text-[15px]'>
             {' '}
-            (človek môže byť v neslobode v akejkoľvek oblasti života ako sú
-            napríklad prílišná spotreba, otrocké nasledovanie módnych trendov,
-            zastretý zrak v nevere v Boha, trvajúca závisť, pýcha života,
-            nezdravá ustarostenosť, závislosť na počítačových hrách, zahltenosť
+            (človek môže byť v neslobode v akejkoľvek oblasti života ako je aj
+            prílišná spotreba, otrocké nasledovanie módnych trendov, zastretý
+            zrak v nevere v Boha, trvajúca závisť, pýcha života, nezdravá
+            ustarostenosť, závislosť na počítačových hrách, zahltenosť
             romantickými telenovelami).{' '}
           </span>
+        </p>
+
+        <h3 className='text-white text-[25px]'>Rozhodni sa správne!</h3>
+        <p>
           Tvoja duša je vzácna, neostávaj v satanovom zvode. Nezatváraj pred tým
           oči. Tým, že sa budeš snažiť v to neveriť, nespôsobíš jeho zánik. Aj
           Neo v Matrixe stál pred voľbou. Modrá alebo červená? Milosrdná ilúzia
-          alebo krutá realita? Je hrozné odsúdenie hriešnika
-          <span className='text-[15px]'>
-            {' '}
-            (či už homosexuála alebo heterosexuála){' '}
-          </span>
-          v horiacom jazere na večnosť.
-          <span className='italic'></span>
-          <span className='text-[15px]'></span>
+          alebo krutá realita?
         </p>
         <p className='mt-4'>
           Prajem ti, aby si získal pravú slobodu, ktorá je len v Ježišovi
