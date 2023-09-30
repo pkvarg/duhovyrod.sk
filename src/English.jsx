@@ -1,5 +1,6 @@
 import React from 'react'
 import LanguageBar from './components/LanguageBar'
+import Footer from './components/Footer'
 
 const English = () => {
   return (
@@ -263,8 +264,7 @@ const English = () => {
           subconsciously always looking for.
         </p>
       </div>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
+      <Footer />
     </div>
   )
 }

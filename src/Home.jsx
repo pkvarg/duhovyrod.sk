@@ -292,8 +292,7 @@ const Home = () => {
                 Potom ťa zaplaví skutočný pokoj, ktorý podvedome stále hľadáš.
               </p>
             </div>
-            <span className='italic'></span>
-            <span className='text-[15px]'></span>
+            <Footer />
           </div>
         )}
       </div>
@@ -323,7 +322,6 @@ const Home = () => {
           ? 'Táto stránka nezhromažďuje žiadne údaje'
           : 'This site does not collect any information'}
       </CookieConsent>
-      <Footer />
     </>
   )
 }
