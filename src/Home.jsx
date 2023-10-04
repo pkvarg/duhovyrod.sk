@@ -30,9 +30,8 @@ const Home = () => {
     <>
       <div className='text-white'>
         <LanguageBar />
-        {language === 'english' ? (
-          <English />
-        ) : (
+        {language === 'english' && <English />}
+        {language === 'slovak' && (
           <>
             <div className='hero'>
               <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%]'>
@@ -304,6 +303,263 @@ const Home = () => {
             </div>
           </>
         )}
+        {language === 'czech' && (
+          <>
+            <div className='hero'>
+              <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%]'>
+                Zda jsi homosexuál nebo heterosexuál,
+              </h1>
+              <h2 className='text-[#f1bf41] text-[35px] text-center'>
+                Ježíš tě miluje stejně!
+              </h2>
+            </div>
+            <div className='bg-[#673337]'>
+              <div className='text-justify mx-4 lg:mx-8 text-[18px] pt-20 py-8 intro'>
+                <h3 className='text-white text-[25px]'>Jak to vím?</h3>
+
+                <p>
+                  Protože zemřel za hříchy celého lidstva. Pokud by miloval jen
+                  heterosexuály, pak by přece neumíral za hříchy celého světa.
+                  <span className='italic'>
+                    {' '}
+                    On je obětí smíření za naše hříchy, a nejen za naše, ale
+                    také za hříchy celého světa.{' '}
+                  </span>
+                  <span className='text-[15px]'>První Janův 2:2</span>
+                  On miluje každého člověka.
+                  <span className='italic'>
+                    {' '}
+                    Ale Bůh dokazuje svou lásku k nám tím, že Kristus zemřel za
+                    nás, když jsme byli ještě hříšní.{' '}
+                  </span>
+                  <span className='text-[15px]'> Římanům 5:8 </span>
+                  <span className='italic'> Bůh neupřednostňuje nikoho. </span>
+                  <span className='text-[15px]'> Římanům 2:11 </span>
+                </p>
+                <p className='mt-4'>
+                  Pán Ježíš byl přítel hříšníků a celníků a proto Ho tehdejší
+                  kněží odsuzovali.
+                  <span className='italic'>
+                    {' '}
+                    Přišel Syn člověka, který jí a pije, a říkáte: Ajle, člověk
+                    žráč a pijan vína, přítel celníků a hříšníků.{' '}
+                  </span>
+                  <span className='text-[15px]'> Lukáš 7:34 </span>
+                </p>
+                <h3 className='text-white text-[25px]'>
+                  Máme povinnost se vzájemně milovat
+                </h3>
+                <p>
+                  <span className='italic'>
+                    {' '}
+                    Nebo jedno přikázání obsahuje celý zákon v plnosti, ono:
+                    Milovat budeš bližního svého jako sebe sama.{' '}
+                  </span>
+                  <span className='text-[15px]'>Galatským 5:14 </span>
+                  <span className='italic'>
+                    {' '}
+                    Kdo nemiluje, neznal Boha, protože Bůh je láska.{' '}
+                  </span>
+                  <span className='text-[15px]'> První Janův 4:8 </span>
+                  <span className='italic'>
+                    {' '}
+                    Neboť to je láska k Bohu, abychom zachovávali Jeho
+                    přikázání; a Jeho přikázání nejsou obtížná.{' '}
+                  </span>
+                  <span className='text-[15px]'> První Janův 5:3 </span>
+                </p>
+                <p className='mt-4'>
+                  Osobně se znám s několika homosexuály a jsou to přátelští
+                  lidé. Jsou talentovaní a slušní k druhým. Jsou empatičtí a
+                  společenští.
+                </p>
+                <h3 className='text-white text-[25px]'>Každý člověk zhřešil</h3>
+                <p>
+                  <span className='italic'>
+                    {' '}
+                    Všichni totiž zhřešili a nemají slávy Boží.{' '}
+                  </span>
+                  <span className='text-[15px]'>Římanům 3:23 </span> Problém
+                  celého lidstva
+                  <span className='text-[15px]'>
+                    {' '}
+                    (homosexuálů a heterosexuálů),{' '}
+                  </span>
+                  je hřích a to jakýkoli. Ten totiž odděluje člověka od Boží
+                  přítomnosti.
+                </p>
+                <p className='mt-4'>
+                  Pokud usilovně pracuješ, chráníš přírodu, děláš dobročinnost,
+                  ale nevěříš v Ježíše, jsi odsouzen, pokud zůstaneš v této
+                  nevěře. Lidé se během potopy utopili ne proto, že by byli
+                  všichni nepřizpůsobivá individua, ale proto, že neuvěřili
+                  Noemovi a nevstoupili do korábu. Utopili se i přátelští, i
+                  talentovaní, i slušní, i empatičtí, i společenští.
+                </p>
+                <h3 className='text-white text-[25px]'>
+                  Kdo věří, je ospravedlněn
+                </h3>
+                <p>
+                  Ježíš ale zemřel za hříchy všech a ten kdo v Něho věří, je
+                  ospravedlněn před Bohem.
+                  <span className='italic'>
+                    {' '}
+                    Kdo věří v Něho, nebude souzen.{' '}
+                  </span>
+                  <span className='text-[15px]'>Jan 3:18 </span>
+                  Víra však musí být úpřímná, ze srdce. A ta se projevuje tím,
+                  že člověk poté, co uvěřil v Ježíše, má touhu a snahu opustit
+                  hřích a jeho otroctví.
+                  <span className='italic'>
+                    {' '}
+                    Kdo však neposlouchá Syna, neuvidí život, ale hněv Boží
+                    zůstává na něm.{' '}
+                  </span>
+                  <span className='text-[15px]'> Jan 3:36 </span>
+                </p>
+                <h3 className='text-white text-[25px]'>Je jinakost hříchem?</h3>
+                <p>
+                  Boží Slovo se často dotýká problematiky nemanželského vztahu.
+                  <span className='italic'>
+                    {' '}
+                    Varujte se smilstva! Každý (jiný) hřích, kterého se člověk
+                    dopustí, je mimo tělo; ale kdo smilní, hřeší proti vlastnímu
+                    tělu.{' '}
+                  </span>
+                  <span className='text-[15px]'>První Korintským 6:18 </span>
+                  <span className='italic'>
+                    {' '}
+                    Manželství všichni mějte v úctě a manželské lůžko
+                    neposkvrněné, neboť smilníky a cizoložníky bude soudit Bůh.{' '}
+                  </span>
+                  <span className='text-[15px]'> Židům 13:4 </span>
+                </p>
+                <p className='mt-4'>
+                  Vyřešil by sňatek partnerů stejného pohlaví tento problém?
+                  Boží Slovo na některých místech zmiňuje i homosexuální vztahy.
+                  <span className='italic'>
+                    {' '}
+                    Proto je Bůh vydal bezostyšným náruživostem, vždyť jejich
+                    ženy zaměnily přirozený styk s muži za protipřirozený, a
+                    podobně i muži zanechali přirozený styk se ženou a rozpálili
+                    se vášní mezi sebou: mužové s muži páchali hanebnost a za
+                    své pobloudění sami na sobě nesli odplatu, jenž si
+                    zasloužili. A protože nepokládali za hodné zachovat si
+                    poznání Boha, vydal je Bůh převrácenému smýšlení, aby
+                    páchali, co se nesluší: naplněni vší nepravostí smilstvem.{' '}
+                  </span>
+                  <span className='text-[15px]'> Římanům 1:26-29</span>
+                  <span className='italic'>
+                    {' '}
+                    Znali sice právní řád Boží, že ti, kdo páší takové věci,
+                    zasluhují si smrt, a přece nejen sami je činí, ale i
+                    schvalují, když je páší jiní.{' '}
+                  </span>
+                  <span className='text-[15px]'> Římanům 1:32 </span>
+                </p>
+                <p className='mt-4'>
+                  Jestli žiješ v nemanželském heterosexuálním vztahu nebo ve
+                  vztahu se stejným pohlavím (rozhodující pohlaví je to
+                  přirozené při narození člověka, ne to po operačním zákroku
+                  změny pohlaví), Boží Slovo je dává na stejnou úroveň.
+                  <span className='italic'>
+                    {' '}
+                    Nemylte se! Ani smilníci, ani modloslužebníci, ani
+                    cizoložníci, ani muži souložící s muži, ani zloději, ani
+                    lakomci, ani opilci, ani rouhači, ani vyděrači nebudou
+                    dědici království Božího!{' '}
+                  </span>
+                  <span className='text-[15px]'> První Korintským 6:9-10</span>
+                </p>
+                <h3 className='text-white text-[25px]'>
+                  Možná se necítíš být tím kým ses narodil
+                </h3>
+                <p className='mt-4'>
+                  Jsme těmi, kým se cítíme nebo jsme těmi, kým jsme se narodili?
+                  Cítíš se být prezidentem? Nejsi. Cítíš se být opicí? Nejsi.
+                  Cítíš se být rostlinou? Nejsi. Cítíš se být opačným pohlavím?
+                  Nejsi.
+                </p>
+                <p className='mt-4'>
+                  City a myšlenky jsou často zavádějící, protože jsou
+                  deformovány hříchem. Chvíli se ti to líbí, jindy jsi
+                  nešťastný.
+                </p>
+                <p className='mt-4'>
+                  Jsi tím, jak jsi stvořený.
+                  <span className='italic'>
+                    {' '}
+                    Od počátku stvoření však stvořil je Bůh jako muže a ženu.
+                    Proto opustí člověk otce i matku a bude se držet své
+                    manželky, a budou dva jedno tělo; takže už nejsou dvě těla,
+                    ale jedno. Co tedy Bůh spojil, člověk nerozlučuj!
+                  </span>
+                  <span className='text-[15px]'> Marek 10:6-9 </span>
+                </p>
+                <p className='mt-4'>
+                  Pokud ses narodil jako kluk, jsi muž. Pokud ses narodila jako
+                  holka, jsi žena. Potom to byla vůle Stvořitele, abys byl/byla
+                  tím, čím jsi od narození. A to proto, že s tebou má dobrý
+                  úmysl. Tak proč jít proti vůli Nejvyššího?
+                </p>
+                <h3 className='text-white text-[25px]'>Sám to nezvládneš</h3>
+                <p>
+                  Přijmeš-li Ježíše, začne v tobě boj dvou světů. .
+                  <span className='italic'>
+                    {' '}
+                    Neboť tělo žádá proti duchu a duch proti tělu; navzájem si
+                    odporují, abyste nedělali, co by ste chtěli.{' '}
+                  </span>
+                  <span className='text-[15px]'> List Galatským 5:17 </span>
+                  Čím více budeš posilovat svého ducha, tím bude slabší tělo a
+                  to vypůsobí, že dosavadní žádostivost ke hříchu bude slábnout.
+                  Nejde o tělo samotné, ale o toho zlýho, ​​který ho má v
+                  područí.
+                  <span className='italic'>
+                    {' '}
+                    Vždyť náš boj není proti krve a tělu, ale proti knížectvím a
+                    mocnostem, proti pánům světa této temnosti, proti zlým
+                    duchům v nebesích.{' '}
+                  </span>
+                  <span className='text-[15px]'> List Efezským 6:12 </span>
+                  Tuto moc temna
+                  <span className='text-[15px]'>
+                    (duchovní držbu v neslobode){' '}
+                  </span>
+                  ve tvém životě může svázat ten, koho Pánem je Ježíš, kdo nese
+                  Jeho autoritu. Sám jsem tuto autoritu uplatňoval ve svém
+                  životě – v různých oblastech
+                  <span className='text-[15px]'>
+                    {' '}
+                    Člověk může být v nesvobodě v jakékoli oblasti života, jak
+                    je také přílišná spotřeba, otrocké následování módních
+                    trendů, zastřený zrak v nevěře v Boha, trvající závist,
+                    pýcha života, nezdravá ustaranost, závislost na počítačových
+                    hrách, zahlcenost romantickými telenovelami.{' '}
+                  </span>
+                </p>
+                <h3 className='text-white text-[25px]'>Rozhodni se správně!</h3>
+                <p>
+                  Tvá duše je vzácná, nezůstávej v satanově svodu. Nezavírej
+                  před tím oči. Tím, že se budeš snažit v to nevěřit, nezpůsobíš
+                  jeho zánik. Také Neo v Matrixu stál před volbou. Modrá nebo
+                  červená? Milosrdná iluze nebo tvrdá realita?
+                </p>
+                <p className='mt-4'>
+                  Přeji ti, abys získal pravou svobodu, která je jen v Ježíši
+                  Kristu, protože On je Život a jen On je Cesta k němu.
+                  <span className='italic'>
+                    {' '}
+                    Já jsem cesta i pravda i život.{' '}
+                  </span>
+                  <span className='text-[15px]'> Jan 14:6 </span>
+                  Potom tě zaplaví skutečný klid, který podvědomě stále hledáš.
+                </p>
+              </div>
+              <Footer />
+            </div>
+          </>
+        )}
       </div>
       <CookieConsent
         location='bottom'
@@ -320,16 +576,21 @@ const Home = () => {
           fontSize: '20px',
           padding: '2.5px 5px',
         }}
-        buttonText={language === 'slovak' ? 'Pokračovať' : 'Continue'}
+        buttonText={
+          (language === 'slovak' && 'Pokračovať') ||
+          (language === 'english' && 'Continue') ||
+          (language == 'czech' && 'Pokračovat')
+        }
         expires={365}
         onAccept={() => {
           setCookieAccept(true)
           increaseVisitorsCount()
         }}
       >
-        {language === 'slovak'
-          ? 'Táto stránka nezhromažďuje žiadne údaje'
-          : 'This site does not collect any information'}
+        {(language === 'slovak' && 'Táto stránka nezhromažďuje žiadne údaje') ||
+          (language === 'english' &&
+            'This site does not collect any information') ||
+          (language === 'czech' && 'Tato stránka neshromažďuje žádné údaje')}
       </CookieConsent>
     </>
   )
