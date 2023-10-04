@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <section className='text-[18px] pt-16 pb-8'>
+    <footer className='bg-[#f1bf41]'>
+      <section className='text-[18px] text-[#000000] pt-16 pb-8'>
         <div className='flex flex-row gap-2 items-center justify-center'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk

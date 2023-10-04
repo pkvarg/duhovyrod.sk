@@ -20,8 +20,8 @@ body {
     to right,
 
     #4b0082,
-    #e64bc7,
-    #2bbe26,
+    #ee36c9,
+    #26e41f,
     #bb1515
   );
 
@@ -30,6 +30,16 @@ body {
 
   color: transparent;
   font-weight: 600;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #1e1c1c00, #433f3f5f, #22231f00),
+    url('/hero2.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 115vh;
 }
 
 .top-to-btm {
