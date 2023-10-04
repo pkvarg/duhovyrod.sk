@@ -47,6 +47,15 @@ body {
   );
 }
 
+.title-grad {
+  background-image: linear-gradient(to right, #340456, #ee36c9, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
+
+  color: transparent;
+  font-weight: 500;
+}
+
 .hero {
   background-image: linear-gradient(to bottom, #1e1c1c00, #433f3f5f, #685178),
     url('/hero2.webp');
@@ -99,5 +108,11 @@ body {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    height: 80vh;
   }
 }

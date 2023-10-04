@@ -34,10 +34,10 @@ const Home = () => {
         {language === 'slovak' && (
           <>
             <div className='hero'>
-              <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%] font-bold'>
+              <h1 className='title-grad text-[40px] text-center pt-[55%]  lg:pt-[20%] xl:pt-[15%] font-bold'>
                 Či si homosexuál alebo heterosexuál,
               </h1>
-              <h2 className='text-[#f1bf41] text-[35px] text-center'>
+              <h2 className='text-[#ffffff] text-[35px] text-center'>
                 Ježiš ťa miluje rovnako!
               </h2>
             </div>
