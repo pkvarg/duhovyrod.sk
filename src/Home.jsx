@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <div className='duha-grad'>
               <div className='text-justify mx-4 lg:mx-8 text-[22.5px] pt-20 py-8 intro'>
-                <h3 className='text-white text-[25px] -mt-[25%]'>
+                <h3 className='text-white text-[25px] -mt-[25%] sub-grad'>
                   Ako to viem?
                 </h3>
                 <p>

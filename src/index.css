@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,9 +11,19 @@ body {
   font-weight: 400;
 }
 
-.intro h3 {
-  color: #f1bf41;
+.pacifico {
+  font-family: 'Pacifico', cursive;
 }
+
+.intro h3 {
+  color: hsl(184, 86%, 60%);
+  font-size: 30px;
+  font-weight: bolder;
+  /* font-family: 'Pacifico', cursive; */
+  /* letter-spacing: 3px; */
+}
+
+/* kazdy druhy #ee36c9 */
 
 .intro h3 {
   text-align: center;
@@ -48,7 +59,7 @@ body {
 }
 
 .title-grad {
-  background-image: linear-gradient(to right, #340456, #ee36c9, #ffffff);
+  background-image: linear-gradient(to right, #ee36c9, #ffffff);
   background-clip: text;
   -webkit-background-clip: text; /* For Safari support */
 
