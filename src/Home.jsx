@@ -34,16 +34,18 @@ const Home = () => {
         {language === 'slovak' && (
           <>
             <div className='hero'>
-              <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%]'>
+              <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%] font-bold'>
                 Či si homosexuál alebo heterosexuál,
               </h1>
               <h2 className='text-[#f1bf41] text-[35px] text-center'>
                 Ježiš ťa miluje rovnako!
               </h2>
             </div>
-            <div className='bg-[#673337]'>
-              <div className='text-justify mx-4 lg:mx-8 text-[18px] pt-20 py-8 intro'>
-                <h3 className='text-white text-[25px]'>Ako to viem?</h3>
+            <div className='duha-grad'>
+              <div className='text-justify mx-4 lg:mx-8 text-[22.5px] pt-20 py-8 intro'>
+                <h3 className='text-white text-[25px] -mt-[25%]'>
+                  Ako to viem?
+                </h3>
                 <p>
                   Pretože zomrel za hriechy celého ľudstva. Ak by miloval len
                   heterosexuálov, potom by predsa nezomieral za hriechy celého

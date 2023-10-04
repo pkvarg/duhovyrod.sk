@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   overflow-x: hidden;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 400;
 }
 
 .intro h3 {
@@ -32,8 +36,19 @@ body {
   font-weight: 600;
 }
 
+.duha-grad {
+  background-image: linear-gradient(
+    to bottom,
+
+    #685178,
+    #968065,
+    #968065,
+    #8c5758
+  );
+}
+
 .hero {
-  background-image: linear-gradient(to bottom, #1e1c1c00, #433f3f5f, #22231f00),
+  background-image: linear-gradient(to bottom, #1e1c1c00, #433f3f5f, #685178),
     url('/hero2.webp');
   background-repeat: no-repeat;
   background-position: center center;
