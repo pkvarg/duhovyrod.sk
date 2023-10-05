@@ -42,8 +42,8 @@ const Home = () => {
               </h2>
             </div>
             <div className='duha-grad'>
-              <div className='text-justify mx-4 lg:mx-8 text-[22.5px] pt-20 py-8 intro'>
-                <h3 className='text-white text-[30px] -mt-[25%] subtitle'>
+              <div className='text-justify mx-4 lg:mx-8 text-[18px] py-8 intro'>
+                <h3 className='text-white -mt-[25%]  text-[27.5px] subtitle'>
                   Ako to viem?
                 </h3>
                 <p>
@@ -105,7 +105,7 @@ const Home = () => {
                   spoločenskí.
                 </p>
 
-                <h3 className='text-white text-[25px] subtitle'>
+                <h3 className='text-white text-[27.5px] subtitle'>
                   Každý človek zhrešil
                 </h3>
                 <p>
@@ -154,7 +154,7 @@ const Home = () => {
                   <span className='text-[15px]'> Ján 3:36 </span>
                 </p>
 
-                <h3 className='text-white text-[25px] subtitle'>
+                <h3 className='text-white text-[27.5px] subtitle'>
                   Je inakosť hriechom?
                 </h3>
                 <p>
@@ -213,7 +213,7 @@ const Home = () => {
                   <span className='text-[15px]'> Prvý Korintským 6:9-10</span>
                 </p>
 
-                <h3 className='text-white text-[25px] subtitle-pink'>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Možno sa necítiš byť tým kým si sa narodil
                 </h3>
 
@@ -249,7 +249,7 @@ const Home = () => {
                   dobrý úmysel. Tak prečo ísť proti vôli Najvyššieho?
                 </p>
 
-                <h3 className='text-white text-[25px] subtitle'>
+                <h3 className='text-white text-[27.5px] subtitle'>
                   Sám to nezvládneš
                 </h3>
                 <p>
@@ -288,7 +288,7 @@ const Home = () => {
                   </span>
                 </p>
 
-                <h3 className='text-white text-[25px] subtitle-pink'>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Rozhodni sa správne!
                 </h3>
                 <p>
@@ -316,16 +316,18 @@ const Home = () => {
         {language === 'czech' && (
           <>
             <div className='hero'>
-              <h1 className='text-[#ffffff] text-[40px] text-center pt-[17.5%]  lg:pt-[20%]'>
+              <h1 className='title-grad text-[40px] text-center pt-[55%]  lg:pt-[20%] xl:pt-[15%] font-bold'>
                 Zda jsi homosexuál nebo heterosexuál,
               </h1>
-              <h2 className='text-[#f1bf41] text-[35px] text-center'>
+              <h2 className='text-[#ffffff] text-[35px] text-center'>
                 Ježíš tě miluje stejně!
               </h2>
             </div>
-            <div className='bg-[#673337]'>
-              <div className='text-justify mx-4 lg:mx-8 text-[18px] pt-20 py-8 intro'>
-                <h3 className='text-white text-[25px]'>Jak to vím?</h3>
+            <div className='duha-grad'>
+              <div className='text-justify mx-4 lg:mx-8 text-[18px] py-8 intro'>
+                <h3 className='text-white -mt-[25%]  text-[27.5px] subtitle'>
+                  Jak to vím?
+                </h3>
 
                 <p>
                   Protože zemřel za hříchy celého lidstva. Pokud by miloval jen
@@ -356,7 +358,7 @@ const Home = () => {
                   </span>
                   <span className='text-[15px]'> Lukáš 7:34 </span>
                 </p>
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Máme povinnost se vzájemně milovat
                 </h3>
                 <p>
@@ -383,7 +385,9 @@ const Home = () => {
                   lidé. Jsou talentovaní a slušní k druhým. Jsou empatičtí a
                   společenští.
                 </p>
-                <h3 className='text-white text-[25px]'>Každý člověk zhřešil</h3>
+                <h3 className='text-white text-[27.5px] subtitle'>
+                  Každý člověk zhřešil
+                </h3>
                 <p>
                   <span className='italic'>
                     {' '}
@@ -406,7 +410,7 @@ const Home = () => {
                   Noemovi a nevstoupili do korábu. Utopili se i přátelští, i
                   talentovaní, i slušní, i empatičtí, i společenští.
                 </p>
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[25px] subtitle-pink'>
                   Kdo věří, je ospravedlněn
                 </h3>
                 <p>
@@ -427,7 +431,9 @@ const Home = () => {
                   </span>
                   <span className='text-[15px]'> Jan 3:36 </span>
                 </p>
-                <h3 className='text-white text-[25px]'>Je jinakost hříchem?</h3>
+                <h3 className='text-white text-[27.5px] subtitle'>
+                  Je jinakost hříchem?
+                </h3>
                 <p>
                   Boží Slovo se často dotýká problematiky nemanželského vztahu.
                   <span className='italic'>
@@ -481,7 +487,7 @@ const Home = () => {
                   </span>
                   <span className='text-[15px]'> První Korintským 6:9-10</span>
                 </p>
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Možná se necítíš být tím kým ses narodil
                 </h3>
                 <p className='mt-4'>
@@ -512,7 +518,9 @@ const Home = () => {
                   tím, čím jsi od narození. A to proto, že s tebou má dobrý
                   úmysl. Tak proč jít proti vůli Nejvyššího?
                 </p>
-                <h3 className='text-white text-[25px]'>Sám to nezvládneš</h3>
+                <h3 className='text-white text-[27.5px] subtitle'>
+                  Sám to nezvládneš
+                </h3>
                 <p>
                   Přijmeš-li Ježíše, začne v tobě boj dvou světů. .
                   <span className='italic'>
@@ -548,7 +556,9 @@ const Home = () => {
                     hrách, zahlcenost romantickými telenovelami.{' '}
                   </span>
                 </p>
-                <h3 className='text-white text-[25px]'>Rozhodni se správně!</h3>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
+                  Rozhodni se správně!
+                </h3>
                 <p>
                   Tvá duše je vzácná, nezůstávej v satanově svodu. Nezavírej
                   před tím oči. Tím, že se budeš snažit v to nevěřit, nezpůsobíš
