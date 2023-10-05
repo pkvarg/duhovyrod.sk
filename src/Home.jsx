@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <div className='duha-grad'>
               <div className='text-justify mx-4 lg:mx-8 text-[22.5px] pt-20 py-8 intro'>
-                <h3 className='text-white text-[25px] -mt-[25%] sub-grad'>
+                <h3 className='text-white text-[30px] -mt-[25%] subtitle'>
                   Ako to viem?
                 </h3>
                 <p>
@@ -77,7 +77,7 @@ const Home = () => {
                   <span className='text-[15px]'> Lukáš 7:34 </span>
                 </p>
 
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Máme povinnosť sa vzájomne milovať
                 </h3>
                 <p>
@@ -105,7 +105,9 @@ const Home = () => {
                   spoločenskí.
                 </p>
 
-                <h3 className='text-white text-[25px]'>Každý človek zhrešil</h3>
+                <h3 className='text-white text-[25px] subtitle'>
+                  Každý človek zhrešil
+                </h3>
                 <p>
                   <span className='italic'>
                     {' '}
@@ -130,7 +132,7 @@ const Home = () => {
                   talentovaní, aj slušní, aj empatickí, aj spoločenskí.
                 </p>
 
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[25px] subtitle-pink'>
                   Kto verí, je ospravedlnený
                 </h3>
                 <p>
@@ -152,7 +154,9 @@ const Home = () => {
                   <span className='text-[15px]'> Ján 3:36 </span>
                 </p>
 
-                <h3 className='text-white text-[25px]'>Je inakosť hriechom?</h3>
+                <h3 className='text-white text-[25px] subtitle'>
+                  Je inakosť hriechom?
+                </h3>
                 <p>
                   Božie Slovo sa často dotýka problematiky nemanželského vzťahu.
                   <span className='italic'>
@@ -209,7 +213,7 @@ const Home = () => {
                   <span className='text-[15px]'> Prvý Korintským 6:9-10</span>
                 </p>
 
-                <h3 className='text-white text-[25px]'>
+                <h3 className='text-white text-[25px] subtitle-pink'>
                   Možno sa necítiš byť tým kým si sa narodil
                 </h3>
 
@@ -245,7 +249,9 @@ const Home = () => {
                   dobrý úmysel. Tak prečo ísť proti vôli Najvyššieho?
                 </p>
 
-                <h3 className='text-white text-[25px]'>Sám to nezvládneš</h3>
+                <h3 className='text-white text-[25px] subtitle'>
+                  Sám to nezvládneš
+                </h3>
                 <p>
                   Ak prijmeš Ježiša, začne v tebe boj dvoch svetov.
                   <span className='italic'>
@@ -282,7 +288,9 @@ const Home = () => {
                   </span>
                 </p>
 
-                <h3 className='text-white text-[25px]'>Rozhodni sa správne!</h3>
+                <h3 className='text-white text-[25px] subtitle-pink'>
+                  Rozhodni sa správne!
+                </h3>
                 <p>
                   Tvoja duša je vzácna, neostávaj v satanovom zvode. Nezatváraj
                   pred tým oči. Tým, že sa budeš snažiť v to neveriť, nespôsobíš
@@ -566,11 +574,10 @@ const Home = () => {
       <CookieConsent
         location='bottom'
         style={{
-          background: '#000000',
+          background: '#6e587a',
           color: '#f1bf41',
           fontSize: '18px',
           textAlign: 'justify',
-          border: '1px solid #ffffff',
         }}
         buttonStyle={{
           background: '#39bb2f',

@@ -15,19 +15,26 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
-.intro h3 {
-  color: hsl(184, 86%, 60%);
-  font-size: 30px;
-  font-weight: bolder;
-  /* font-family: 'Pacifico', cursive; */
-  /* letter-spacing: 3px; */
+.subtitle {
+  color: rgb(51, 117, 155);
+  /* color: hsl(184, 86%, 60%); */
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
-/* kazdy druhy #ee36c9 */
+.subtitle-pink {
+  color: #ee36c9;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
 
 .intro h3 {
+  font-weight: bolder;
   text-align: center;
   padding: 30px 0;
+
+  /* font-family: 'Pacifico', cursive; */
+  /* letter-spacing: 3px; */
 }
 
 .duha-gradient {
