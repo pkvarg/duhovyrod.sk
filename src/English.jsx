@@ -261,14 +261,14 @@ const English = () => {
                 v in your life can be bound by the one whose Lord is Jesus, who
                 carries His authority. I myself applied this authority in my
                 life - in various areas.
-                <span className='text-[15px]'>
-                  {' '}
-                  A person can be in unfreedom in any area of life, such as
-                  excessive consumption, slavish following of fashion trends,
-                  obscured vision in disbelief in God, persistent envy, pride of
-                  life, unhealthy worry, addiction to computer games, being
-                  overwhelmed by romantic serials.{' '}
-                </span>
+              </p>
+              <p>
+                {' '}
+                A person can be in unfreedom in any area of life, such as
+                excessive consumption, slavish following of fashion trends,
+                obscured vision in disbelief in God, persistent envy, pride of
+                life, unhealthy worry, addiction to computer games, being
+                overwhelmed by romantic serials.{' '}
               </p>
 
               <h3 className='text-white text-[27.5px] subtitle-pink'>

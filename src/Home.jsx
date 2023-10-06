@@ -277,15 +277,15 @@ const Home = () => {
                   </span>
                   v tvojom živote môže zviazať ten, koho Pánom je Ježiš, kto
                   nesie Jeho autoritu. Sám som túto autoritu uplatňoval vo
-                  svojom živote - v rôznych oblastiach
-                  <span className='text-[15px]'>
-                    {' '}
-                    (človek môže byť v neslobode v akejkoľvek oblasti života ako
-                    je aj prílišná spotreba, otrocké nasledovanie módnych
-                    trendov, zastretý zrak v nevere v Boha, trvajúca závisť,
-                    pýcha života, nezdravá ustarostenosť, závislosť na
-                    počítačových hrách, zahltenosť romantickými telenovelami).{' '}
-                  </span>
+                  svojom živote - v rôznych oblastiach.
+                </p>
+                <p>
+                  {' '}
+                  Človek môže byť v neslobode v akejkoľvek oblasti života ako je
+                  aj prílišná spotreba, otrocké nasledovanie módnych trendov,
+                  zastretý zrak v nevere v Boha, trvajúca závisť, pýcha života,
+                  nezdravá ustarostenosť, závislosť na počítačových hrách,
+                  zahltenosť romantickými telenovelami.{' '}
                 </p>
 
                 <h3 className='text-white text-[27.5px] subtitle-pink'>
@@ -295,7 +295,7 @@ const Home = () => {
                   Tvoja duša je vzácna, neostávaj v satanovom zvode. Nezatváraj
                   pred tým oči. Tým, že sa budeš snažiť v to neveriť, nespôsobíš
                   jeho zánik. Aj Neo v Matrixe stál pred voľbou. Modrá alebo
-                  červená? Milosrdná ilúzia alebo krutá realita?
+                  červená? Milosrdná ilúzia alebo tvrdá realita?
                 </p>
                 <p className='mt-4'>
                   Prajem ti, aby si získal pravú slobodu, ktorá je len v
@@ -546,15 +546,15 @@ const Home = () => {
                   </span>
                   ve tvém životě může svázat ten, koho Pánem je Ježíš, kdo nese
                   Jeho autoritu. Sám jsem tuto autoritu uplatňoval ve svém
-                  životě – v různých oblastech
-                  <span className='text-[15px]'>
-                    {' '}
-                    Člověk může být v nesvobodě v jakékoli oblasti života, jak
-                    je také přílišná spotřeba, otrocké následování módních
-                    trendů, zastřený zrak v nevěře v Boha, trvající závist,
-                    pýcha života, nezdravá ustaranost, závislost na počítačových
-                    hrách, zahlcenost romantickými telenovelami.{' '}
-                  </span>
+                  životě – v různých oblastech.
+                </p>
+                <p>
+                  {' '}
+                  Člověk může být v nesvobodě v jakékoli oblasti života, jak je
+                  také přílišná spotřeba, otrocké následování módních trendů,
+                  zastřený zrak v nevěře v Boha, trvající závist, pýcha života,
+                  nezdravá ustaranost, závislost na počítačových hrách,
+                  zahlcenost romantickými telenovelami.{' '}
                 </p>
                 <h3 className='text-white text-[27.5px] subtitle-pink'>
                   Rozhodni se správně!
