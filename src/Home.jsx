@@ -42,7 +42,7 @@ const Home = () => {
               </h2>
             </div>
             <div className='duha-grad'>
-              <div className='text-justify mx-4 lg:mx-8 text-[18px] py-8 intro'>
+              <div className='text-justify mx-4 lg:mx-8 text-[22.5px] py-8 intro'>
                 <h3 className='text-white -mt-[25%]  text-[27.5px] subtitle'>
                   Ako to viem?
                 </h3>
@@ -115,7 +115,7 @@ const Home = () => {
                   </span>
                   <span className='text-[15px]'>Rimanom 3:23 </span> Problém
                   celého ľudstva
-                  <span className='text-[15px]'>
+                  <span className='text-[18px]'>
                     {' '}
                     (homosexuálov a heterosexuálov),{' '}
                   </span>
@@ -324,7 +324,7 @@ const Home = () => {
               </h2>
             </div>
             <div className='duha-grad'>
-              <div className='text-justify mx-4 lg:mx-8 text-[18px] py-8 intro'>
+              <div className='text-justify mx-4 lg:mx-8 text-[22.5px] py-8 intro'>
                 <h3 className='text-white -mt-[25%]  text-[27.5px] subtitle'>
                   Jak to vím?
                 </h3>
@@ -395,7 +395,7 @@ const Home = () => {
                   </span>
                   <span className='text-[15px]'>Římanům 3:23 </span> Problém
                   celého lidstva
-                  <span className='text-[15px]'>
+                  <span className='text-[18px]'>
                     {' '}
                     (homosexuálů a heterosexuálů),{' '}
                   </span>

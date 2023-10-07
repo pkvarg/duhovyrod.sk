@@ -17,7 +17,7 @@ const English = () => {
             </h2>
           </div>
           <div className='duha-grad'>
-            <div className='text-justify mx-4 lg:mx-8 text-[18px]  py-8 intro'>
+            <div className='text-justify mx-4 lg:mx-8 text-[22.5px]  py-8 intro'>
               <h3 className='text-white text-[27.5px] -mt-[25%] subtitle'>
                 How do I know that?
               </h3>
@@ -93,7 +93,7 @@ const English = () => {
                 </span>
                 <span className='text-[15px]'>Romans 3:23 </span> The problem of
                 all mankind
-                <span className='text-[15px]'>
+                <span className='text-[18px]'>
                   {' '}
                   (homosexuals and heterosexuals),{' '}
                 </span>
