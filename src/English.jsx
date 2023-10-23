@@ -47,9 +47,9 @@ const English = () => {
                 is why the priests of that time were condemning Him.
                 <span className='italic'>
                   {' '}
-                  The Son of Man came eating and drinking, and you say, ‘Look at
+                  The Son of Man came eating and drinking, and you say, "Look at
                   this glutton and drunkard, a friend of tax collectors and
-                  sinners!’{' '}
+                  sinners!"
                 </span>
                 <span className='text-[15px]'> Luke 7:34 </span>
               </p>
@@ -214,11 +214,11 @@ const English = () => {
                 You are what you are made to be. However,
                 <span className='italic'>
                   {' '}
-                  from the beginning of creation, ‘God made them male and
-                  female.’ ‘For this reason a man will leave his father and
-                  mother and be united to his wife, and the two will become one
-                  flesh.’ So they are no longer two, but one flesh. Therefore
-                  what God has joined together, let man not separate.
+                  from the beginning of creation, God made them male and female.
+                  For this reason a man will leave his father and mother and be
+                  united to his wife, and the two will become one flesh. So they
+                  are no longer two, but one flesh. Therefore what God has
+                  joined together, let man not separate.
                 </span>
                 <span className='text-[15px]'> Mark 10:6-9 </span>
               </p>
