@@ -50,6 +50,8 @@ const Home = () => {
                   Pretože zomrel za hriechy celého ľudstva. Ak by miloval len
                   heterosexuálov, potom by predsa nezomieral za hriechy celého
                   sveta.
+                </p>
+                <p className='mt-2'>
                   <span className='italic'>
                     {' '}
                     On je obeťou zmierenia za naše hriechy, a nielen za naše,
@@ -143,7 +145,8 @@ const Home = () => {
                     Kto verí v Neho, nebude súdený.{' '}
                   </span>
                   <span className='text-[15px]'>Ján 3:18 </span>
-                  <br />
+                </p>
+                <p className='mt-2'>
                   Viera však musí byť úprimná, zo srdca. A tá sa prejavuje tým,
                   že človek po tom ako uveril v Ježiša, má túžbu a snahu opustiť
                   hriech a jeho otroctvo.
@@ -261,7 +264,8 @@ const Home = () => {
                     odporujú, aby ste nerobili, čo by ste chceli.{' '}
                   </span>
                   <span className='text-[15px]'> List Galatským 5:17 </span>
-                  <br />
+                </p>
+                <p className='mt-2'>
                   Čím viac budeš posilňovať svojho ducha, tým bude slabšie telo
                   a to vypôsobí, že doterajšia žiadostivosť k hriechu bude
                   slabnúť. Nejde o telo samotné, ale o toho zlého, ktorý ho má v
@@ -282,7 +286,7 @@ const Home = () => {
                   svojom živote - v rôznych oblastiach.
                 </p>
 
-                <p>
+                <p className='mt-2'>
                   {' '}
                   Človek môže byť v neslobode v akejkoľvek oblasti života ako je
                   aj prílišná spotreba, otrocké nasledovanie módnych trendov,
@@ -335,6 +339,8 @@ const Home = () => {
                 <p>
                   Protože zemřel za hříchy celého lidstva. Pokud by miloval jen
                   heterosexuály, pak by přece neumíral za hříchy celého světa.
+                </p>
+                <p className='mt-2'>
                   <span className='italic'>
                     {' '}
                     On je obětí smíření za naše hříchy, a nejen za naše, ale
@@ -424,7 +430,8 @@ const Home = () => {
                     Kdo věří v Něho, nebude souzen.{' '}
                   </span>
                   <span className='text-[15px]'>Jan 3:18 </span>
-                  <br />
+                </p>
+                <p className='mt-2'>
                   Víra však musí být úpřímná, ze srdce. A ta se projevuje tím,
                   že člověk poté, co uvěřil v Ježíše, má touhu a snahu opustit
                   hřích a jeho otroctví.
@@ -533,7 +540,9 @@ const Home = () => {
                     odporují, abyste nedělali, co by ste chtěli.{' '}
                   </span>
                   <span className='text-[15px]'> List Galatským 5:17 </span>
-                  <br />
+                </p>
+
+                <p className='mt-2'>
                   Čím více budeš posilovat svého ducha, tím bude slabší tělo a
                   to vypůsobí, že dosavadní žádostivost ke hříchu bude slábnout.
                   Nejde o tělo samotné, ale o toho zlýho, ​​který ho má v
@@ -554,8 +563,7 @@ const Home = () => {
                   životě – v různých oblastech.
                 </p>
 
-                <p>
-                  {' '}
+                <p className='mt-2'>
                   Člověk může být v nesvobodě v jakékoli oblasti života, jak je
                   také přílišná spotřeba, otrocké následování módních trendů,
                   zastřený zrak v nevěře v Boha, trvající závist, pýcha života,

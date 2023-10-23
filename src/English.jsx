@@ -24,9 +24,11 @@ const English = () => {
               <p>
                 Because He died for the sins of all mankind. If He only loved
                 heterosexuals, then he wouldn't die for sins of the whole world.
+              </p>
+              <p className='mt-2'>
                 <span className='italic'>
-                  <br /> He Himself is the atoning sacrifice for our sins,and
-                  not only for ours but also for the sins of the whole world.{' '}
+                  He Himself is the atoning sacrifice for our sins,and not only
+                  for ours but also for the sins of the whole world.{' '}
                 </span>
                 <span className='text-[15px]'>First John 2:2 </span> He loves
                 every person.
@@ -120,7 +122,9 @@ const English = () => {
                   Whoever believes in Him is not condemned.{' '}
                 </span>
                 <span className='text-[15px]'>John 3:18 </span>
-                <br />
+              </p>
+              <p className='mt-2'>
+                {' '}
                 However, faith must be sincere, from the heart. And this
                 manifests itself in the fact that a person, after believing in
                 Jesus, has a desire and an effort to leave sin and its slavery.
@@ -242,7 +246,8 @@ const English = () => {
                   other, so that you do not do what you want.{' '}
                 </span>
                 <span className='text-[15px]'> Galatians 5:17 </span>
-                <br />
+              </p>
+              <p className='mt-2'>
                 The more you strengthen your spirit, the weaker the body will
                 be, and this will cause the previous lust for sin to weaken.
                 It's not about the body itself, but about the evil one who has
@@ -262,10 +267,10 @@ const English = () => {
                 </span>
                 v in your life can be bound by the one whose Lord is Jesus, who
                 carries His authority. I myself applied this authority in my
-                life - in various .
+                life - in various areas.
               </p>
 
-              <p>
+              <p className='mt-2'>
                 {' '}
                 A person can be in unfreedom in any area of life, such as
                 excessive consumption, slavish following of fashion trends,
