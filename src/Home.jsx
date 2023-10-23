@@ -117,7 +117,7 @@ const Home = () => {
                   celého ľudstva
                   <span className='text-[18px]'>
                     {' '}
-                    (homosexuálov a heterosexuálov),{' '}
+                    (homosexuálov a heterosexuálov){' '}
                   </span>
                   je hriech a to akýkoľvek. Ten totiž oddeľuje človeka od Božej
                   prítomnosti.
@@ -400,7 +400,7 @@ const Home = () => {
                   celého lidstva
                   <span className='text-[18px]'>
                     {' '}
-                    (homosexuálů a heterosexuálů),{' '}
+                    (homosexuálů a heterosexuálů){' '}
                   </span>
                   je hřích a to jakýkoli. Ten totiž odděluje člověka od Boží
                   přítomnosti.
