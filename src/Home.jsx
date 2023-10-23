@@ -55,8 +55,8 @@ const Home = () => {
                     On je obeťou zmierenia za naše hriechy, a nielen za naše,
                     ale aj za hriechy celého sveta.{' '}
                   </span>
-                  <span className='text-[15px]'>Prvý Jánov 2:2 </span>
-                  On miluje každého človeka.
+                  <span className='text-[15px]'>Prvý Jánov 2:2 </span> On miluje
+                  každého človeka.
                   <span className='italic'>
                     {' '}
                     Ale Boh dokazuje svoju lásku k nám tým, že Kristus umrel za
@@ -143,6 +143,7 @@ const Home = () => {
                     Kto verí v Neho, nebude súdený.{' '}
                   </span>
                   <span className='text-[15px]'>Ján 3:18 </span>
+                  <br />
                   Viera však musí byť úprimná, zo srdca. A tá sa prejavuje tým,
                   že človek po tom ako uveril v Ježiša, má túžbu a snahu opustiť
                   hriech a jeho otroctvo.
@@ -260,6 +261,7 @@ const Home = () => {
                     odporujú, aby ste nerobili, čo by ste chceli.{' '}
                   </span>
                   <span className='text-[15px]'> List Galatským 5:17 </span>
+                  <br />
                   Čím viac budeš posilňovať svojho ducha, tým bude slabšie telo
                   a to vypôsobí, že doterajšia žiadostivosť k hriechu bude
                   slabnúť. Nejde o telo samotné, ale o toho zlého, ktorý ho má v
@@ -270,8 +272,8 @@ const Home = () => {
                     a mocnostiam, proti pánom sveta tejto temnosti, proti zlým
                     duchom v nebesiach.{' '}
                   </span>
-                  <span className='text-[15px]'> List Efezským 6:12 </span>
-                  Túto moc temna
+                  <span className='text-[15px]'> List Efezským 6:12 </span> Túto
+                  moc temna
                   <span className='text-[15px]'>
                     (duchovnú držbu v neslobode){' '}
                   </span>
@@ -279,6 +281,7 @@ const Home = () => {
                   nesie Jeho autoritu. Sám som túto autoritu uplatňoval vo
                   svojom živote - v rôznych oblastiach.
                 </p>
+
                 <p>
                   {' '}
                   Človek môže byť v neslobode v akejkoľvek oblasti života ako je
@@ -337,8 +340,8 @@ const Home = () => {
                     On je obětí smíření za naše hříchy, a nejen za naše, ale
                     také za hříchy celého světa.{' '}
                   </span>
-                  <span className='text-[15px]'>První Janův 2:2</span>
-                  On miluje každého člověka.
+                  <span className='text-[15px]'>První Janův 2:2</span> On miluje
+                  každého člověka.
                   <span className='italic'>
                     {' '}
                     Ale Bůh dokazuje svou lásku k nám tím, že Kristus zemřel za
@@ -421,6 +424,7 @@ const Home = () => {
                     Kdo věří v Něho, nebude souzen.{' '}
                   </span>
                   <span className='text-[15px]'>Jan 3:18 </span>
+                  <br />
                   Víra však musí být úpřímná, ze srdce. A ta se projevuje tím,
                   že člověk poté, co uvěřil v Ježíše, má touhu a snahu opustit
                   hřích a jeho otroctví.
@@ -522,13 +526,14 @@ const Home = () => {
                   Sám to nezvládneš
                 </h3>
                 <p>
-                  Přijmeš-li Ježíše, začne v tobě boj dvou světů. .
+                  Přijmeš-li Ježíše, začne v tobě boj dvou světů.
                   <span className='italic'>
                     {' '}
                     Neboť tělo žádá proti duchu a duch proti tělu; navzájem si
                     odporují, abyste nedělali, co by ste chtěli.{' '}
                   </span>
                   <span className='text-[15px]'> List Galatským 5:17 </span>
+                  <br />
                   Čím více budeš posilovat svého ducha, tím bude slabší tělo a
                   to vypůsobí, že dosavadní žádostivost ke hříchu bude slábnout.
                   Nejde o tělo samotné, ale o toho zlýho, ​​který ho má v
@@ -539,15 +544,16 @@ const Home = () => {
                     mocnostem, proti pánům světa této temnosti, proti zlým
                     duchům v nebesích.{' '}
                   </span>
-                  <span className='text-[15px]'> List Efezským 6:12 </span>
-                  Tuto moc temna
+                  <span className='text-[15px]'> List Efezským 6:12 </span> Tuto
+                  moc temna
                   <span className='text-[15px]'>
-                    (duchovní držbu v neslobode){' '}
+                    (duchovní držbu v nesvobodě){' '}
                   </span>
                   ve tvém životě může svázat ten, koho Pánem je Ježíš, kdo nese
                   Jeho autoritu. Sám jsem tuto autoritu uplatňoval ve svém
                   životě – v různých oblastech.
                 </p>
+
                 <p>
                   {' '}
                   Člověk může být v nesvobodě v jakékoli oblasti života, jak je

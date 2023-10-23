@@ -25,18 +25,17 @@ const English = () => {
                 Because He died for the sins of all mankind. If He only loved
                 heterosexuals, then he wouldn't die for sins of the whole world.
                 <span className='italic'>
-                  {' '}
-                  He Himself is the atoning sacrifice for our sins, and not only
-                  for ours but also for the sins of the whole world.{' '}
+                  <br /> He Himself is the atoning sacrifice for our sins,and
+                  not only for ours but also for the sins of the whole world.{' '}
                 </span>
-                <span className='text-[15px]'>First John 2:2 </span>
-                He loves every person.
+                <span className='text-[15px]'>First John 2:2 </span> He loves
+                every person.
                 <span className='italic'>
                   {' '}
                   But God proves His love for us in this: While we were still
-                  sinners, Christ died for us. Romans 5:8{' '}
+                  sinners, Christ died for us.{' '}
                 </span>
-                <span className='text-[15px]'> Romans 2:11 </span>
+                <span className='text-[15px]'> Romans 5:8 </span>
                 <span className='italic'>
                   {' '}
                   For God does not show favoritism.{' '}
@@ -95,7 +94,7 @@ const English = () => {
                 all mankind
                 <span className='text-[18px]'>
                   {' '}
-                  (homosexuals and heterosexuals),{' '}
+                  (homosexuals and heterosexuals){' '}
                 </span>
                 is sin, whatever it may be. It separates man from God's
                 presence.
@@ -121,6 +120,7 @@ const English = () => {
                   Whoever believes in Him is not condemned.{' '}
                 </span>
                 <span className='text-[15px]'>John 3:18 </span>
+                <br />
                 However, faith must be sincere, from the heart. And this
                 manifests itself in the fact that a person, after believing in
                 Jesus, has a desire and an effort to leave sin and its slavery.
@@ -242,6 +242,7 @@ const English = () => {
                   other, so that you do not do what you want.{' '}
                 </span>
                 <span className='text-[15px]'> Galatians 5:17 </span>
+                <br />
                 The more you strengthen your spirit, the weaker the body will
                 be, and this will cause the previous lust for sin to weaken.
                 It's not about the body itself, but about the evil one who has
@@ -256,12 +257,14 @@ const English = () => {
                 <span className='text-[15px]'> Ephesians 6:12 </span>
                 This power of darkness
                 <span className='text-[15px]'>
+                  {' '}
                   (spiritual possession in unfreedom){' '}
                 </span>
                 v in your life can be bound by the one whose Lord is Jesus, who
                 carries His authority. I myself applied this authority in my
-                life - in various areas.
+                life - in various .
               </p>
+
               <p>
                 {' '}
                 A person can be in unfreedom in any area of life, such as
