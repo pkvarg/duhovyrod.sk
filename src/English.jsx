@@ -265,7 +265,7 @@ const English = () => {
                   {' '}
                   (spiritual possession in unfreedom){' '}
                 </span>
-                v in your life can be bound by the one whose Lord is Jesus, who
+                in your life can be bound by the one whose Lord is Jesus, who
                 carries His authority. I myself applied this authority in my
                 life - in various areas.
               </p>

@@ -279,6 +279,7 @@ const Home = () => {
                   <span className='text-[15px]'> List Efezským 6:12 </span> Túto
                   moc temna
                   <span className='text-[15px]'>
+                    {' '}
                     (duchovnú držbu v neslobode){' '}
                   </span>
                   v tvojom živote môže zviazať ten, koho Pánom je Ježiš, kto
@@ -556,6 +557,7 @@ const Home = () => {
                   <span className='text-[15px]'> List Efezským 6:12 </span> Tuto
                   moc temna
                   <span className='text-[15px]'>
+                    {' '}
                     (duchovní držbu v nesvobodě){' '}
                   </span>
                   ve tvém životě může svázat ten, koho Pánem je Ježíš, kdo nese
